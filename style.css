@@ -41,7 +41,33 @@ header a {
 
 header nav a {
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
+    position: relative;  
+    color: #171a20;      
+    transition: color 0.3s ease;
+    padding-top: 5px;
+}
+
+header nav a::after {
+    content: ''; 
+    position: absolute;
+    bottom: 0;  
+    left: 0;
+    width: 100%; 
+    height: 2px; 
+    background-color: #000000; 
+    transform: scaleX(0); 
+    transform-origin: bottom right;
+    transition: transform 0.3s ease; 
+}
+
+header nav a:hover::after {
+    transform: scaleX(1); 
+    transform-origin: bottom left; 
+}
+
+header nav a:hover {
+    color: #2185d6; 
 }
 
 header nav.center {
@@ -104,6 +130,12 @@ section .buttons a {
 section .buttons a:first-child {
     background-color: #171f20;
     color: #fff;
+}
+
+section .buttons a:hover {
+    background-color: #1d72b8; 
+    color: #fff; 
+    transform: scale(1.05); 
 }
 
 section .buttons {
