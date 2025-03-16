@@ -1,56 +1,57 @@
-# Interactive Web Components - Complete Implementation
+# Tesla Car Website
+This project is a modern, interactive webpage inspired by Tesla's website. It includes custom cursor animations, fixed navigation, responsive design, scrolling animations, interactive cards, and more. It aims to provide an engaging and sleek user experience similar to the Tesla landing page.
 
-This project includes a side menu, backdrop effect, and interactive "Learn More" buttons using HTML, CSS, and JavaScript. The layout is fully responsive, and JavaScript is used to control interactive elements like opening and closing the side menu, displaying a backdrop, and toggling content visibility.
+# Features
+Custom Cursor: Interactive dynamic cursor effects that change on hover.
+Fixed Navigation Bar: Persistent navigation that stays at the top while scrolling.
+Scrolling Animations: Content that animates into view as the user scrolls.
+Interactive Cards: Hover effects on cards that reveal additional information.
+Responsive Design: Layout adjusts seamlessly for different screen sizes (mobile, tablet, desktop).
+Video Background: A full-screen video background that adjusts to different resolutions.
+Technologies Used
+HTML5: Provides the structure and content of the webpage.
+CSS3: For custom styles, animations, and responsive design.
+JavaScript: Implements interactivity such as menu toggling, dynamic content display, and more.
 
-## Table of Contents
+# Usage
+The webpage includes several interactive sections:
 
-- [HTML](#html)
-- [CSS](#css)
-- [JavaScript](#javascript)
-- [Usage](#usage)
-- [Conclusion](#conclusion)
+Model 3: Featuring offers like 0% APR and special promotions.
+Model Y: Showcasing leasing options and unique offers.
+Model X: Featuring supercharging options and details.
+Solar Panels & Solar Roof: Information about Tesla's renewable energy products.
+Powerwall & Accessories: Tesla's home energy storage solutions.
+Video Section: Full-screen video background to enhance user experience.
+Join Tesla: Call to action to join the Tesla community.
 
-## HTML
+# Key Interactions
+Menu Toggle: Clicking on the "Menu" button opens a sliding side menu with links to various Tesla products and services.
+Learn More: Clicking on "Learn More" toggles additional details about each product.
+Join Tesla: Clicking "Join Tesla" triggers a success alert message.
 
-The HTML structure provides the basic layout for the page, including the menu button, side menu (`<aside>`), backdrop, content sections, and buttons for interaction.
+# Demo 
+[(https://sensational-biscotti-c6f915.netlify.app/)]
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Web Components</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+# MIT License
 
-    <button id="menuBtn">Open Menu</button>
+MIT License
 
-    <aside>
-        <button class="close">X</button>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
-    </aside>
+Copyright (c) [2025] [Yash Ragubanshi]
 
-    <div class="backdrop"></div>
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-    <section>
-        <h1>Welcome to Tesla</h1>
-        <p>Learn more about Tesla and its features.</p>
-        <button class="learn-more-btn">Learn More</button>
-        <div id="learnMoreText1" style="display:none;">
-            <p>Tesla cars are electric vehicles designed for high performance and sustainability.</p>
-        </div>
-    </section>
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-    <div class="car">
-        <a href="#" class="button">Join Tesla</a>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

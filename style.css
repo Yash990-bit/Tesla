@@ -275,7 +275,7 @@ h1 {
 }
 
 .car .button:hover {
-    background-color: #333; 
+    background-color: transparent; 
 }
 
 .content {
@@ -319,19 +319,19 @@ footer {
 }
 
 .footer-social a {
-    font-size: 24px; /* Ensuring the icons have a visible size */
-    color: #fff; /* Default color */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+    font-size: 24px;
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s ease, transform 0.3s ease; 
 }
 
 .footer-social a:hover {
-    color: #1d72b8; /* Change color on hover */
-    transform: scale(1.1); /* Slightly scale the icons when hovered */
+    color: #1d72b8; 
+    transform: scale(1.1); 
 }
 
 .footer-social i {
-    font-size: 28px; /* Increase icon size if needed */
+    font-size: 28px; 
 }
 
 footer p {
